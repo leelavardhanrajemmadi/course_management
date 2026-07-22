@@ -4,6 +4,11 @@ app = FastAPI(title="Course Management System")
 l=[]
 
 #get
+@app.get("/")
+def home():
+    return {"message": "The following are the courses available", "courses": l}   
+
+#get
 @app.get("/courses")
 def home():
     return {"message": "The following are the courses available", "courses": l}   
