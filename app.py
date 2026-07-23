@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://course-management-vnu3.onrender.com"
 
 st.title(" Course Management System")
 
