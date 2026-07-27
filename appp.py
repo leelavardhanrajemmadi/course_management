@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 # The URL where your FastAPI backend is running
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://warehouse-api-rjor.onrender.com"
 
 st.set_page_config(page_title="Warehouse Logistics", layout="wide")
 st.title("📦 Warehouse Logistics System")
