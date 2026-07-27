@@ -6,7 +6,7 @@ import pandas as pd
 API_URL = "https://warehouse-api-rjor.onrender.com"
 
 st.set_page_config(page_title="Warehouse Logistics", layout="wide")
-st.title("📦 Warehouse Logistics System")
+st.title("📦 Sunkam's Warehouse Logistics System")
 
 # Role/Location Selection Menu
 menu = st.sidebar.selectbox(
